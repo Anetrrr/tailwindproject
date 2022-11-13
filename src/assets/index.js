@@ -1,0 +1,5 @@
+export {default as memory} from './images/memory.svg'
+export {default as fitness} from './images/fitness_tracker.svg'
+export {default as doctor} from './images/doctors_scheduleapp.svg'
+export {default as lechene} from './images/web_shopping.svg'
+export {default as background} from './images/beams.jpeg'
