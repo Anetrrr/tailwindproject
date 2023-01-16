@@ -12,9 +12,9 @@ const Projects = () => {
     return text;
   }
   return (
-    <>
+    <div id="projects">
   
-    <div className='grid mx-auto md:grid-cols-2 sm-grid-cols-1 gap-6 bg-slate-900 p-4 object-contain h-[full]'>
+    <div className='grid mx-auto md:grid-cols-2 sm-grid-cols-1 gap-6 bg-slate-900 p-4 object-contain h-[full]' >
 
     {data.map((item,index) => {
   
@@ -28,7 +28,7 @@ const Projects = () => {
         </p>
 
         <span className='mt-2 flex justify-between items-center px-10 mb-4 bottom-1'> 
-          <AiOutlineGithub className=' w-12 h-10 cursor-pointer'/>
+         <a href={item.repo} target='_blank' rel="noopener noreferrer"> <AiOutlineGithub className=' w-12 h-10 cursor-pointer'/></a>
             <Link to={`/projects/${item.id}`}><button className='w-[150px] h-10 font-bold border bg-rose-600 text-white rounded font-mont'> More details... </button>
             </Link>
 
@@ -38,7 +38,7 @@ const Projects = () => {
       )
     })}
     </div>
-    </>
+    </div>
   )
 }
 

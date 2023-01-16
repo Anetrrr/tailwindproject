@@ -1,25 +1,30 @@
-import {memory, fitness, doctor, lechene} from '../assets/index.js'
+import {memory, fitness, doctor, lechene, moments} from '../assets/index.js'
 export const projects = [
 
     {
         id: 1,
-        title: 'Fitness App',
-        details: 'Fitness apps are applications designed to keep you fit and healthy. The purpose of the fitness app is to provide the user with instructions and examples of one or more types of exercise, physical activity, nutritional programs, and provide information about other fitness topics.',
+        title: 'Workout App',
+        details: 'Workout apps are applications designed to keep you fit and healthy. The purpose of the app is to provide the user with the flexibility to add his kind of workout and design his own custom workout routines and exercises.',
         images: `${fitness}`,
         tools: 
-            ['Material UI', 'MUI', 'React', 'reathooks', 'icons', 'apis', 'rapidapi '],
+            ['Tailwind', 'React', 'reactcontext', 'icons', 'NodeJS', 'fullstack '],
+        repo: "https://github.com/Anetrrr/workout-app",
+        // live: "In progress",
         
         
     },
 
     {
         id: 2,
-        title: "Moment's App",
-        details: "Moments app is an application created and designed to ensure you constantly store up memorable moments in pictures and videos. It's important to capture these moments because they're fleeting and forgettable—it may take a year or more to forget them, but without a timeless, visual reminder, you can lose the feeling and never dig it up again. A photo can bring back the emotions, memories, and scents attached to the image.",
+        title: "Ode to a Friend",
+        details: "Ode to a Friend is a website created and designed to capture memorable moments the team had with a colleague going away for a long time. It's important to capture moments because they're fleeting and forgettable—it may take a year or more to forget them, but without a timeless, visual reminder, you can lose the feeling and never dig it up again.",
         tools: 
-            ['Material UI', 'MUI', 'React','reacthooks', 'MongoDB', 'apis', 'MERN' ],
+            ['CSS', 'React','reacthooks' ],
         
         images: `${memory}`,
+        repo: "https://github.com/Anetrrr/ode-to-a-friend",
+        live: "https://ode-to-zainab.vercel.app",
+        
     },
 
     {
@@ -30,17 +35,34 @@ export const projects = [
             ['Tail Wind', 'TailwindCss', 'React', 'icons', 'Redux', 'reacthooks'],
         
         images: `${lechene}`,
+        repo: 'https://github.com/Anetrrr/LeChene-Project/tree/test',
+        live: 'https://le-chene-project.vercel.app/'
     },
 
     {
         id: 4,
-        title: 'Hey Doctor App',
-        details: 'Your access to healthcare is made easier through the "Hey Doctor" application. It gives you full access to doctors schedules in hospitals closest to your location.',
+        title: 'Animated Login/Signup Pages',
+        details: 'One of the most used pages in apps is the login/signup pages. I created very amazing templates for login/signup pages.',
         tools: 
-            [  'React', 'icons', 'CSS'],
+            [  'React', 'CSS'],
+        
+        images: `${memory}`,
+        repo: "https://github.com/Anetrrr/login-animated",
+        live: "https://login-animated.vercel.app",
+        
+    },
+    {
+        id: 5,
+        title: 'HTML Pages',
+        details: 'Web pages.',
+        tools: 
+            [  'HTML', 'CSS'],
         
         images: `${doctor}`,
+        repo: "https://github.com/Anetrrr/loruki-website",
+        live: "https://quirky-williams-d1dfb0.netlify.app/"
     },
+
 
 
 
