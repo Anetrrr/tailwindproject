@@ -4,8 +4,8 @@ import { backgroud } from '../assets/index'
 
 const Hero = () => { 
   return (
-    <div className="text-white bg-hero-lg bg-repeat">
-      <div className='max-w-[800px] mt-[-110px] w-full h-screen flex flex-col justify-center leading-8 lg:p-20'>
+    <div className="text-white bg-hero-lg bg-repeat flex justify-center text-center sm:justify-center">
+      <div className='max-w-[800px] mt-[-110px] w-full items-center h-screen flex flex-col justify-center leading-8 lg:p-20'>
         <p className='text-black font-bold text-2xl p-2'>
         I'm Anetor  <span className='font-mont text-rose-500 mx-2 font-extrabold'>Omo-Ataga</span>
         

@@ -3,6 +3,12 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
+    screens: {
+      'tablet': '640px',
+      'laptop': '1024px',
+      'desktop': '1280px',
+    },
+    
     extend: {
       fontFamily: {
               'roboto': ["'Roboto Slab'", ...defaultTheme.fontFamily.sans],
