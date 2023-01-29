@@ -4,15 +4,15 @@ import { backgroud } from '../assets/index'
 
 const Hero = () => { 
   return (
-    <div className="text-white bg-hero-lg bg-repeat flex justify-center text-center sm:justify-center">
-      <div className='max-w-[800px] mt-[-110px] w-full items-center h-screen flex flex-col justify-center leading-8 lg:p-20'>
+    <div className="text-white bg-hero-lg bg-repeat flex justify-center text-center tablet:justify-center">
+      <div className='max-w-[800px] mt-[-110px] w-full items-center h-screen flex flex-col justify-center leading-8 desktop:p-20'>
         <p className='text-black font-bold text-2xl p-2'>
         I'm Anetor  <span className='font-mont text-rose-500 mx-2 font-extrabold'>Omo-Ataga</span>
         
         </p>
         <h4 className='laptop:text-4xl tablet:text-3xl text-black text-2xl font-bold laptop:py-6 '>I am a Software Developer with with a passion for Front End Development</h4>
         <div className='flex'>
-          {/* <p className='laptop:text-3xl sm:text-3xl text-xl py-4'></p> */}
+          {/* <p className='laptop:text-3xl tablet:text-3xl text-xl py-4'></p> */}
           <Typed 
           strings={['JavaScript','React', 'Azure', 'Tailwind', 'NodeJS','MaterialUI']} 
           typeSpeed={120} backSpeed={140} 

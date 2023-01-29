@@ -12,7 +12,7 @@ const ProjectDetail = () => {
     return (
       <>
         
-      <div className="p-6 grid laptop:grid-cols-2 sm:grid-cols-1 bg-hero-lg">
+      <div className="p-6 grid laptop:grid-cols-2 tablet:grid-cols-1 bg-hero-lg">
              <img src={project.images} alt={project.title} className="w-[70%]" />
 
             <div className="p-6 ">
@@ -22,7 +22,7 @@ const ProjectDetail = () => {
                   <button className="p-3 rounded-3xl text-white bg-rose-600 mt-6 laptop:w-[150px] tablet:w-[fit] mx-4 hover:bg-transparent hover:text-rose-500 border hover:border-rose-600">
                   <a href={project.live}>Go to Live Site</a>
                   </button>
-                  <button className="p-3 laptop:w-[150px] sm:w-[fit] rounded-3xl text-white bg- mt-6 bg-slate-900 border">
+                  <button className="p-3 laptop:w-[150px] tablet:w-[fit] rounded-3xl text-white bg- mt-6 bg-slate-900 border">
                   <a href={project.repo}>Repository</a>
                   </button>
 
@@ -50,7 +50,7 @@ const ProjectDetail = () => {
                   <input type="text" placeholder="Please leave a comment" className="h-[10vh] p-4 mb-2 border border-gray-400 rounded"/>
                   <input type="text" placeholder="Your email" className="h-[5vh] p-4 mb-2 border border-gray-400 rounded"/>
                   <input type="text" placeholder="Your name" className="h-[5vh] p-4 mb-2 border border-gray-400 rounded important"/>
-                  <button className="p-3 md:w-[150px] sm:w-[fit] rounded-3xl text-white bg- mt-2 bg-slate-900 border">Submit
+                  <button className="p-3 md:w-[150px] tablet:w-[fit] rounded-3xl text-white bg- mt-2 bg-slate-900 border">Submit
                   </button>
         </form>
 
