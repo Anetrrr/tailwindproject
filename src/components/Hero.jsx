@@ -10,16 +10,16 @@ const Hero = () => {
         I'm Anetor  <span className='font-mont text-rose-500 mx-2 font-extrabold'>Omo-Ataga</span>
         
         </p>
-        <h4 className='md:text-4xl sm:text-3xl text-black text-2xl font-bold md:py-6 '>I am a Software Developer with with a passion for Front End Development</h4>
+        <h4 className='laptop:text-4xl tablet:text-3xl text-black text-2xl font-bold laptop:py-6 '>I am a Software Developer with with a passion for Front End Development</h4>
         <div className='flex'>
-          {/* <p className='md:text-3xl sm:text-3xl text-xl py-4'></p> */}
+          {/* <p className='laptop:text-3xl sm:text-3xl text-xl py-4'></p> */}
           <Typed 
           strings={['JavaScript','React', 'Azure', 'Tailwind', 'NodeJS','MaterialUI']} 
           typeSpeed={120} backSpeed={140} 
-          className=" uppercase md:text-3xl sm:text-3xl text-rose-600 md:pl-2 text-xl font-bold" 
+          className=" uppercase laptop:text-3xl tablet:text-3xl text-rose-600 laptop:pl-2 text-xl font-bold" 
           loop/>
         </div>
-        <p className='md:text-2xl text-xl font-bold text-gray-500 font-roboto py-8'> I love building things, creating new interfaces, developing code and working with new technologies </p>
+        <p className='laptop:text-2xl text-xl font-bold text-gray-500 font-roboto py-8'> I love building things, creating new interfaces, developing code and working with new technologies </p>
         <button className='bg-black rounded-md font-medium text-white px-6 w-[200px] p-2 text-xl hover:bg-transparent hover:text-black border-2 border-black hover:scale-105 mt-6'> Know More </button>
 
 

@@ -12,17 +12,17 @@ const ProjectDetail = () => {
     return (
       <>
         
-      <div className="p-6 grid md:grid-cols-2 sm:grid-cols-1 bg-hero-lg">
+      <div className="p-6 grid laptop:grid-cols-2 sm:grid-cols-1 bg-hero-lg">
              <img src={project.images} alt={project.title} className="w-[70%]" />
 
             <div className="p-6 ">
                  <h2 className="text-rose-500 font-bold text-3xl mb-4">{project.title}</h2>
                  <p className="font font-roboto">{project.details}</p>
 
-                  <button className="p-3 rounded-3xl text-white bg-rose-600 mt-6 md:w-[150px] sm:w-[fit] mx-4 hover:bg-transparent hover:text-rose-500 border hover:border-rose-600">
+                  <button className="p-3 rounded-3xl text-white bg-rose-600 mt-6 laptop:w-[150px] tablet:w-[fit] mx-4 hover:bg-transparent hover:text-rose-500 border hover:border-rose-600">
                   <a href={project.live}>Go to Live Site</a>
                   </button>
-                  <button className="p-3 md:w-[150px] sm:w-[fit] rounded-3xl text-white bg- mt-6 bg-slate-900 border">
+                  <button className="p-3 laptop:w-[150px] sm:w-[fit] rounded-3xl text-white bg- mt-6 bg-slate-900 border">
                   <a href={project.repo}>Repository</a>
                   </button>
 

@@ -28,7 +28,7 @@ const Navbar = () => {
 						ANETOR's.{' '}
 					</h1>
 				</Link2>
-				<ul className="hidden md:flex">
+				<ul className="hidden laptop:flex">
 					<Link2 to="/">
 						{' '}
 						<li className="p-4 hover:border-b-2 border-rose-600">
@@ -60,7 +60,7 @@ const Navbar = () => {
 
 				<div
 					onClick={handleNav}
-					className="block md:hidden">
+					className="block laptop:hidden">
 					{nav ? (
 						<AiOutlineClose
 							size={20}
