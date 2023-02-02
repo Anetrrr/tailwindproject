@@ -21,7 +21,7 @@ const Hero = () => {
           loop/>
         </div>
         <p className='laptop:text-2xl text-xl font-bold text-gray-500 font-roboto py-8'> I love building things, creating new interfaces, developing code and working with new technologies </p>
-        <a href={CV} className='bg-black rounded-md font-medium text-white px-6 w-[200px] p-2 text-xl hover:bg-transparent hover:text-black border-2 border-black hover:scale-105 mt-6'> Know More </a>
+        <a href={CV} className='bg-black rounded-md font-medium text-white px-6 w-[200px] p-2 text-xl hover:bg-transparent hover:text-black border-2 border-black hover:scale-105 mt-6'> CV </a>
 
 
       </div>
