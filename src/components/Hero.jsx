@@ -3,7 +3,7 @@ import Typed from 'react-typed'
 import { backgroud } from '../assets/index'
 
 const Hero = () => { 
-  const CV = 'https://drive.google.com/file/d/1CFUYpLgr8YNWUuPJi_AJugaSFbTbl9-d/view?usp=share_link'
+  const CV = 'https://drive.google.com/drive/folders/1tl-tlHduNOIcixa0EPtth2Nu_rgjAeO4?usp=share_link'
   return (
     <div className="text-white bg-hero-lg bg-repeat flex justify-center text-center tablet:justify-center">
       <div className='max-w-[800px] mt-[-110px] w-full items-center h-screen flex flex-col justify-center leading-8 desktop:p-20'>
